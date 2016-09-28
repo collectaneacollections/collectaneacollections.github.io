@@ -1,6 +1,7 @@
 body {
 	background-color: #000;
 	margin: 0px;
+	font-family: 'PT serif', serif;
 }
 
 header {
@@ -12,12 +13,12 @@ header {
 	padding: 20px; 
 	background-color: rgba(0,0,0,0.5);
 	z-index: 2;
-	font-family: sans;
+	font-family: 'Merriweather Sans', sans;
 	text-transform: uppercase;
 }
 
 #logo {
-	font-family: serif;
+	font-family: 'PT serif', serif;
 	font-size: 30px;
 	display:inline-block;
 	float: left;
@@ -59,10 +60,6 @@ header {
 	width: 100%;
 }
 
-#content {
-	background-color: #ddd;
-	font-family: sans;
-}
 iframe {
 	border: none;
 }
@@ -80,9 +77,10 @@ iframe {
 #videocontainer {
 	text-align: center;
 	padding: 0px; margin: 0px;
+	background-image:url(/assets/photos/columbus_01.jpg);
 }
 #page {
-	margin: 0px 20px;
+	margin: 0px 0px;
 }
 .section {
 	border-bottom: 20px solid #eee;
@@ -94,19 +92,28 @@ iframe {
 .section h2 {
 	margin :0px; padding: 20px;
 	color: #15a;
-	font-family: sans;
+	font-family: 'Merriweather Sans', sans;
 	font-size: 30px;
 }
 .subsection h2 {
 	text-align: left;
 }
 .section.intermezzo {
-	height: 200px;
+	height: 130px;
 	overflow:hidden;
 }
-.section.intermezzo img {
+.image_header {
+	max-height: 400px;
+	overflow:hidden;
+}
+
+ .image_header img {
 	width: 100%;
-	margin-top: -200px;
+ }
+
+.section.intermezzo img{
+	width: 100%;
+	margin-top: -10%;
 }
 .subsection {
 	text-align: justify;
@@ -171,8 +178,8 @@ div.photo img {
 	}
 }
 @media only screen and (max-width: 500px) {
-	#logo {
-		font-size: 20px;
+	#logo, #menu {
+		font-size: 4vw;
 	}
 }
 .button {
@@ -180,7 +187,7 @@ div.photo img {
 	background-color: #183;
 	color: white;
 	text-decoration: none;
-	font-family: sans;
+	font-family: 'Merriweather Sans', sans;
 	font-size: 25px;
 	padding: 10px;
 	border-radius: 5px;
