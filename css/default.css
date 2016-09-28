@@ -94,6 +94,9 @@ iframe {
 	font-family: sans;
 	font-size: 30px;
 }
+.subsection h2 {
+	text-align: left;
+}
 .section.intermezzo {
 	height: 200px;
 	overflow:hidden;
@@ -135,15 +138,6 @@ div.photo img {
 #menu {
 	display: none;
 }
-a.big {
-	color: #15a;
-	text-decoration: none;
-	font-family: sans;
-	font-size: 25px;
-}
-a.big:hover{
-	text-decoration: underline;
-}
 
 @media only screen and (max-width: 1100px) {
 	#nav a {
@@ -167,4 +161,18 @@ a.big:hover{
 		display: block;
 		border: none; padding: 3px 10px; margin: 0px;
 	}
+}
+.button {
+	display: inline-block;
+	background-color: #183;
+	color: white;
+	text-decoration: none;
+	font-family: sans;
+	font-size: 25px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #050;
+}
+.button:hover {
+	background-color: #3a5;
 }
