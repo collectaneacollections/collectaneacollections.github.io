@@ -1,7 +1,7 @@
 body {
 	background-color: #000;
 	margin: 0px;
-	font-family: 'PT serif', serif;
+	font-family: 'PT Sans', sans;
 }
 
 header {
@@ -13,12 +13,12 @@ header {
 	padding: 20px; 
 	background-color: rgba(0,0,0,0.5);
 	z-index: 2;
-	font-family: 'Merriweather Sans', sans;
+	font-family: 'PT Sans', sans;
 	text-transform: uppercase;
 }
 
 #logo {
-	font-family: 'PT serif', serif;
+	font-family: 'PT Serif', serif;
 	font-size: 30px;
 	display:inline-block;
 	float: left;
@@ -36,7 +36,7 @@ header {
 }
 
 #nav a, #menu {
-	font-size: 15px;
+	font-size: 16px;
 	color: #eee;
 	padding-top:8px;
 	text-decoration: none;
@@ -47,7 +47,7 @@ header {
 	border-left: 1px solid #aaa;
 }
 #nav a:hover {
-	background-color: #ddd;
+	background-color: #fff;
 	color: #000;
 }
 #nav a:first-child {
@@ -84,17 +84,17 @@ iframe {
 	margin: 0px 0px;
 }
 .section {
-	border-bottom: 20px solid #eee;
-	background-color: #eee;
+	background-color: #fff;
 	margin: 0px;
 	text-align: center;
 	padding: 80px 0px;
 }
 .section h2 {
-	margin :0px; padding: 20px;
-	color: #15a;
-	font-family: 'Merriweather Sans', sans;
-	font-size: 30px;
+	margin :0px; padding: 20px 0px;
+	color: #038;
+	font-weight: normal;
+	font-family: 'PT Serif', serif;
+	font-size: 34px;
 }
 .subsection h2 {
 	text-align: left;
@@ -188,7 +188,7 @@ div.photo img {
 	background-color: #183;
 	color: white;
 	text-decoration: none;
-	font-family: 'Merriweather Sans', sans;
+	font-family: 'PT Sans', sans;
 	font-size: 25px;
 	padding: 10px;
 	border-radius: 5px;
