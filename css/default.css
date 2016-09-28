@@ -78,6 +78,7 @@ iframe {
 	text-align: center;
 	padding: 0px; margin: 0px;
 	background-image:url(/assets/photos/columbus_01.jpg);
+	background-size: cover;
 }
 #page {
 	margin: 0px 0px;
@@ -113,7 +114,7 @@ iframe {
 
 .section.intermezzo img{
 	width: 100%;
-	margin-top: -10%;
+	margin-top: -20%;
 }
 .subsection {
 	text-align: justify;
