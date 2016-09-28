@@ -100,12 +100,8 @@ iframe {
 	text-align: left;
 }
 .section.intermezzo {
-	height: 130px;
-	overflow:hidden;
 }
 .image_header {
-	max-height: 400px;
-	overflow:hidden;
 }
 
  .image_header img {
@@ -114,7 +110,6 @@ iframe {
 
 .section.intermezzo img{
 	width: 100%;
-	margin-top: -20%;
 }
 .subsection {
 	text-align: justify;
