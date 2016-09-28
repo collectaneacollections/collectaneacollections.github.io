@@ -59,6 +59,9 @@ header {
 	background-color: #ddd;
 	font-family: sans;
 }
+iframe {
+	border: none;
+}
 
 #transparent {
 	position: absolute;
