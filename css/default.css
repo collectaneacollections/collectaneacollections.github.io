@@ -53,6 +53,7 @@ header {
 #bgvideo {
 	max-height: 100%;
 	max-width: 100%;
+	width: 100%;
 }
 
 #content {
@@ -75,11 +76,15 @@ iframe {
 
 #videocontainer {
 	text-align: center;
+	padding: 0px; margin: 0px;
+}
+#page {
+	margin: 0px 20px;
 }
 .section {
 	border-bottom: 20px solid #eee;
 	background-color: #eee;
-	margin: 0px 20px 0px 20px;
+	margin: 0px;
 	text-align: center;
 	padding: 80px 0px;
 }
@@ -90,7 +95,7 @@ iframe {
 	font-size: 30px;
 }
 .section.intermezzo {
-	height: 300px;
+	height: 200px;
 	overflow:hidden;
 }
 .section.intermezzo img {
