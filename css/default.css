@@ -12,10 +12,11 @@ header {
 	height: 40px;
 	right: 0px;
 	padding: 20px; 
-	background-color: rgba(0,0,0,0.5);
+	background-color: #fff;
 	z-index: 2;
 	font-family: 'Merriweather Sans', sans;
 	text-transform: uppercase;
+	border-bottom: 1px solid #aaa;
 }
 
 #logo {
@@ -25,7 +26,7 @@ header {
 	float: left;
 }
 #logo a{
-	color: #eee;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -37,16 +38,16 @@ header {
 }
 
 #nav a, #menu {
+	transition: background-color 0.2s ease-in-out;
 	font-size: 16px;
-	color: #eee;
+	color: #000;
 	text-decoration: none;
 	padding: 8px 30px;
 	display: inline-block;
 	border-left: 1px solid #aaa;
 }
 #nav a:hover {
-	background-color: #fff;
-	color: #000;
+	background-color: #ccc;
 }
 #nav a:first-child {
 	border: none;
@@ -57,7 +58,7 @@ header {
 	max-width: 100%;
 	width: 100%;
 	padding-bottom:20px;
-	border-top: 80px solid black;
+	margin-top: 80px;
 }
 
 iframe {
@@ -179,7 +180,7 @@ div.photo img {
 	#menu:active ~ #nav, #menu:focus ~ #nav, #nav:hover, #nav:active {
 		position: absolute;
 		right: 0px; top : 80px;
-		background: rgba(0,0,0,0.5);
+		background: #fff;
 	}
 	#menu:active ~ #nav a, #menu:focus ~ #nav a, #nav:hover a, #nav:active a{
 		display: block;
