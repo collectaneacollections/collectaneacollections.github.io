@@ -2,7 +2,7 @@
 layout: post
 title: Contact
 ---
-{% include intermezzo.html photo="columbus_31.jpg" %}
+{% include intermezzo.html photo="columbus_51.jpg" %}
 Contact
 =======
 

@@ -2,22 +2,24 @@
 layout: post
 title: Pre Order
 ---
-{% include intermezzo.html photo="columbus_03.jpg" %}
+{% include intermezzo.html photo="columbus_57.jpg" %}
 
 
 Support our project on kickstarter
 ==================================
 
-Fuga occaecati perferendis ducimus non nesciunt odio laborum. 
-Porro mollitia dolorem ex velit labore culpa consequuntur est. 
-Expedita mollitia dolor debitis quos voluptatem. Voluptatibus 
-accusantium sapiente ea magni voluptatem ad adipisci 
-necessitatibus. Vitae quo quia eligendi.  Et voluptatum sequi 
-aut natus eligendi quam. Unde quo et ex maxime eius distinctio 
-dolores quis. Nobis velit vel vero harum deleniti earum 
-eligendi qui. Accusamus eius quia tenetur et maiores earum 
-eveniet.  Porro neque optio et quae quibusdam modi. Rem nobis 
-aut velit. Similique reprehenderit et facilis in laudantium 
-quae dolore et.
+Learn more about the story of the Letter and the details of our edition 
+from our Kickstarter page and contribute to bring the first chapter of 
+American history to the public domain. Given the cultural and 
+historical implication of this text and his meaning for the American 
+community we truly want to make everybody part of the reincarnation of 
+the very first chapter of American history, this is why we chose to 
+crowdfund it and spread it with the help of everybody. When we talk 
+about culture we basically talk about knowledge that is created and 
+transmitted collectively by a society through the interaction of people 
+and ideas. It has seemed to us extremely meaningful to rely for the 
+publication of the first chapter of American culture directly on the 
+Americans in order to make them feeling actively involved in the 
+project.
 
 <a href="#" class="big button">Go to Kickstarter!</a>
