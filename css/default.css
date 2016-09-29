@@ -227,3 +227,15 @@ div.photo img {
 	text-align: left;
 	vertical-align: top;
 }
+#kick_logo {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.8;
+}
+#kick_logo:hover, #kick_logo:active {
+	opacity: 1;
+}
+#kick_logo img {
+	max-width: 20vw;
+}
