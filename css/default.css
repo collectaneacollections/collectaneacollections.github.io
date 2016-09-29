@@ -239,3 +239,7 @@ div.photo img {
 #kick_logo img {
 	max-width: 20vw;
 }
+
+.section.post>h1:first-child{
+	margin-top: 120px;
+}
