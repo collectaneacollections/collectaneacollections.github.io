@@ -14,12 +14,12 @@ header {
 	padding: 20px; 
 	background-color: rgba(0,0,0,0.5);
 	z-index: 2;
-	font-family: 'PT Sans', sans;
+	font-family: 'Merriweather Sans', sans;
 	text-transform: uppercase;
 }
 
 #logo {
-	font-family: 'PT Serif', serif;
+	font-family: 'Merriweather Sans', sans;
 	font-size: 30px;
 	display:inline-block;
 	float: left;
@@ -86,13 +86,14 @@ iframe {
 }
 .section h2, h1 {
 	margin :0px;
-	color: #038;
+	color: #000;
 	font-weight: normal;
-	font-family: 'PT Serif', serif;
-	font-size: 34px;
+	font-family: 'Merriweather Sans', sans;
+	font-size: 30px;
+	text-transform:uppercase;
 }
 h1 {
-	font-size:45px;
+	font-size:40px;
 }
 .image_header img {
 	width: 100%;

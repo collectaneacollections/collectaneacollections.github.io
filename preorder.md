@@ -20,4 +20,4 @@ eveniet.  Porro neque optio et quae quibusdam modi. Rem nobis
 aut velit. Similique reprehenderit et facilis in laudantium 
 quae dolore et.
 
-<a href="#" class="big button">Preorder!</a>
+<a href="#" class="big button">Go to Kickstarter!</a>
