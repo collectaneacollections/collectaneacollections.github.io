@@ -83,7 +83,7 @@ iframe {
 	padding: 40px 0px;
 }
 .section h2, h1 {
-	margin :0px; padding: 20px 0px;
+	margin :0px;
 	color: #038;
 	font-weight: normal;
 	font-family: 'PT Serif', serif;
@@ -117,7 +117,10 @@ h1 {
 	vertical-align: middle;
 	display: inline-block;
 	width: 500px;
-	padding: 40px;
+	padding: 20px;
+}
+h1, h2 {
+	padding-top:0px;
 }
 .section h1, .section h2 {
 	text-align: left;
