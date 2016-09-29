@@ -1,5 +1,5 @@
 body {
-	background-color: #000;
+	background-color: #fff;
 	margin: 0px;
 	font-family: 'PT Sans', sans;
 }
@@ -9,6 +9,7 @@ header {
 	position: fixed;
 	top: 0px;
 	left: 0px;
+	height: 40px;
 	right: 0px;
 	padding: 20px; 
 	background-color: rgba(0,0,0,0.5);
@@ -38,12 +39,9 @@ header {
 #nav a, #menu {
 	font-size: 16px;
 	color: #eee;
-	padding-top:8px;
 	text-decoration: none;
-	padding-right: 30px;
-	padding-left: 30px;
+	padding: 8px 30px;
 	display: inline-block;
-	height: 25px;
 	border-left: 1px solid #aaa;
 }
 #nav a:hover {
@@ -82,34 +80,42 @@ iframe {
 }
 #page {
 	margin: 0px 0px;
+	background-color: #fff;
 }
 .section {
 	background-color: #fff;
+	text-align:center;
 	margin: 0px;
-	text-align: center;
-	padding: 80px 0px;
+	padding: 40px 0px;
 }
-.section h2 {
+.section h2, h1 {
 	margin :0px; padding: 20px 0px;
 	color: #038;
 	font-weight: normal;
 	font-family: 'PT Serif', serif;
 	font-size: 34px;
 }
-.subsection h2 {
-	text-align: left;
+h1 {
+	font-size:45px;
 }
-.section.intermezzo {
-}
-.image_header {
+.image_header img {
+	width: 100%;
 }
 
- .image_header img {
+.intermezzo img{
 	width: 100%;
- }
-
-.section.intermezzo img{
-	width: 100%;
+}
+.intermezzo {
+	padding: 20px 0px;
+}
+.section p{
+	text-align: justify;
+	vertical-align: middle;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	padding: 20px;
 }
 .subsection {
 	text-align: justify;
@@ -117,6 +123,12 @@ iframe {
 	display: inline-block;
 	width: 500px;
 	padding: 20px;
+}
+.section h1, .section h2 {
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
 }
 .subsection.centertext{
 	text-align: center;
@@ -165,7 +177,7 @@ div.photo img {
 	}
 	#menu:active ~ #nav, #menu:focus ~ #nav, #nav:hover, #nav:active {
 		position: absolute;
-		right: 0px; top : 73px;
+		right: 0px; top : 80px;
 		background: rgba(0,0,0,0.5);
 	}
 	#menu:active ~ #nav a, #menu:focus ~ #nav a, #nav:hover a, #nav:active a{
@@ -179,7 +191,7 @@ div.photo img {
 	}
 }
 .button {
-	display: inline-block;
+	display: block;
 	background-color: #183;
 	color: white;
 	text-decoration: none;
@@ -187,8 +199,19 @@ div.photo img {
 	font-size: 25px;
 	padding: 10px;
 	border-radius: 5px;
+	text-align: center;
+	width: 200px;
 	border: 1px solid #050;
+	margin-left: auto;
+	margin-right: auto;
 }
 .button:hover {
 	background-color: #3a5;
+}
+
+.section.post {
+	padding-top:0px;
+}
+.intermezzo:first-child {
+	padding-top:0px;
 }
