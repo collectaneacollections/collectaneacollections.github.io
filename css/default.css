@@ -217,3 +217,13 @@ div.photo img {
 .intermezzo:first-child {
 	padding-top:0px;
 }
+.thumb img {
+	max-width: 100%;
+}
+.thumb {
+	width: 230px;
+	font-size: 12px;
+	font-style: italic;
+	text-align: left;
+	vertical-align: top;
+}
