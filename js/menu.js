@@ -2,10 +2,15 @@
 function setup() {
 	var menu = document.getElementById('menu');
 	var nav = document.getElementById('nav');
+	var vid = document.getElementById('bgvideo');
+	
 	console.log('setup');
 
 	document.body.addEventListener('click', hideNav);
 	menu.addEventListener('click', toggleNav);
+	video.addEventListener('click', function(ev) {
+		this.play();
+	});
 
 	function toggleNav(ev){
 		if (nav.className.indexOf('visible') != -1){
