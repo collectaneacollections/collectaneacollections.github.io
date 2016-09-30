@@ -8,9 +8,11 @@ function setup() {
 
 	document.body.addEventListener('click', hideNav);
 	menu.addEventListener('click', toggleNav);
-	video.addEventListener('click', function(ev) {
-		this.play();
-	});
+	if (video != undefined) {
+		video.addEventListener('click', function(ev) {
+			this.play();
+		});
+	}
 
 	function toggleNav(ev){
 		if (nav.className.indexOf('visible') != -1){
