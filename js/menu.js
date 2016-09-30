@@ -8,8 +8,8 @@ function setup() {
 
 	document.body.addEventListener('click', hideNav);
 	menu.addEventListener('click', toggleNav);
-	if (video != undefined) {
-		video.addEventListener('click', function(ev) {
+	if (vid != undefined) {
+		vid.addEventListener('click', function(ev) {
 			this.play();
 		});
 	}
