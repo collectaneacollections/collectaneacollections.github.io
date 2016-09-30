@@ -3,14 +3,20 @@ function setup() {
 	var menu = document.getElementById('menu');
 	var nav = document.getElementById('nav');
 	var vid = document.getElementById('bgvideo');
+	var cover = document.getElementById('video_cover');
 	
 	console.log('setup');
 
 	document.body.addEventListener('click', hideNav);
 	menu.addEventListener('click', toggleNav);
 	if (vid != undefined) {
-		vid.addEventListener('click', function(ev) {
-			this.play();
+		cover.addEventListener('click', function(ev){
+			vid.play();
+			this.style.display='none';
+		});
+		vid.addEventListener('canplay', function(ev){
+			cover.style.display='none';
+			vid.play();
 		});
 	}
 
