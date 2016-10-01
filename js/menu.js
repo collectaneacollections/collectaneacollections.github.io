@@ -4,8 +4,6 @@ function setup() {
 	var nav = document.getElementById('nav');
 	var vid = document.getElementById('bgvideo');
 	var cover = document.getElementById('video_cover');
-	
-	console.log('setup');
 
 	document.body.addEventListener('click', hideNav);
 	menu.addEventListener('click', toggleNav);
