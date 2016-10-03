@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Who we are
+description: "We are Matteo Barbuti and Riccardo Crippa, two Italian 
+graduate students with a great interest in history and focus on culture 
+diffusion"
 ---
 
 {% include intermezzo.html photo="columbus_33.jpg" %}

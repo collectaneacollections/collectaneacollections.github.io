@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Story
+description: "The Columbus letter (1493) is addressed to the king of 
+Spain and to Louis the Santander, the financial minister that decided 
+to fund the expedition of the Italian explorer."
 ---
 {% include intermezzo.html photo="columbus_52.jpg" %}
 
