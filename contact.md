@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Contact
+show_nav: true
 description: "Contact us"
 ---
 {% include intermezzo.html photo="columbus_51.jpg" %}

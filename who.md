@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Who we are
+show_nav: true
 description: "We are Matteo Barbuti and Riccardo Crippa, two Italian 
 graduate students with a great interest in history and focus on culture 
 diffusion"

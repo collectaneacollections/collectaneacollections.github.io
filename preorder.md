@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Pre Order
+show_nav: true
 description: "Support our project on kickstarter"
 ---
 {% include intermezzo.html photo="columbus_57.jpg" %}
