@@ -108,6 +108,7 @@ h1 {
 }
 .section p{
 	text-align: justify;
+	hyphens: auto;
 	vertical-align: middle;
 	display: block;
 	margin: 0px;
@@ -118,6 +119,7 @@ h1 {
 }
 .subsection {
 	text-align: justify;
+	hyphens: auto;
 	vertical-align: middle;
 	display: inline-block;
 	width: 500px;
