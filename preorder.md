@@ -24,4 +24,4 @@ publication of the first chapter of American culture directly on the
 Americans in order to make them feeling actively involved in the 
 project.
 
-<a href="{{ site.kickstarter }}" target="_blank"  class="big button">Go to Kickstarter!</a>
+<!--<a href="{{ site.kickstarter }}" target="_blank"  class="big button">Go to Kickstarter!</a>-->
